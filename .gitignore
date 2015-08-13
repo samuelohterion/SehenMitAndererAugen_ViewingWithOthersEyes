@@ -1,0 +1,7 @@
+VWOE/.excludes
+VWOE/VWOE.json
+VWOE/VWOE.pro.user
+VWOE/manifest.json
+build-VWOE-Desktop-Debug
+build-VWOE-Desktop-Release
+*.*~

@@ -1,15 +1,16 @@
-#include	"glview.h"
-#include	"mainwindow.h"
-#include	<QApplication>
-#include	<QDesktopWidget>
-#include	<iomanip>
-#include	<fstream>
-#include	<iostream>
-#include	<ios>
+#include "glview.h"
+#include "mainwindow.h"
+#include <QApplication>
+#include <QDesktopWidget>
+#include <iomanip>
+#include <fstream>
+#include <iostream>
+#include <ios>
 #include <QMatrix3x3>
 #include <QVector3D>
 
 using namespace std;
+
 int
 main(	int	p_argc,	char	*p_argv[] ){
 
@@ -19,8 +20,8 @@ main(	int	p_argc,	char	*p_argv[] ){
 	}
 
 	QString
-	sDir = "./shaders/",
-	pDir = "./pix/";
+	sDir = "..//VWOE/shaders/",
+	pDir = "..//VWOE/pix/";
 
 	if(	1 < p_argc ) {
 
