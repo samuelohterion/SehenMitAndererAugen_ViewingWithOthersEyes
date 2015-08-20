@@ -20,8 +20,8 @@ main(	int	p_argc,	char	*p_argv[] ){
 	}
 
 	QString
-	sDir = "..//VWOE/shaders/",
-	pDir = "..//VWOE/pix/";
+	sDir = "../VWOE/shaders/",
+	pDir = "../VWOE/pix/";
 
 	if(	1 < p_argc ) {
 
@@ -34,13 +34,11 @@ main(	int	p_argc,	char	*p_argv[] ){
 
 	GLView
 	glView( sDir, pDir );
-//	glView( "../VWOE/shaders/" );
 
 	MainWindow
 	mainWindow( &glView );
 
 	mainWindow.show( );
-//	glView.show( );
 
 	return
 	application.exec( );
