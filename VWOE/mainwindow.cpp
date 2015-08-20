@@ -65,6 +65,8 @@ void
 MainWindow::closeEvent( QCloseEvent *p_closeEvent ){
 
 	glView->close( );
+
+	p_closeEvent->accept( );
 }
 
 void
