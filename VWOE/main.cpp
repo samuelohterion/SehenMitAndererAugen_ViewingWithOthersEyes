@@ -12,7 +12,7 @@
 using namespace std;
 
 int
-main(	int	p_argc,	char	*p_argv[] ){
+main( int p_argc, char *p_argv[ ] ) {
 
 	for( int i = 0; i < p_argc; ++i ) {
 
@@ -23,14 +23,14 @@ main(	int	p_argc,	char	*p_argv[] ){
 	sDir = "../VWOE/shaders/",
 	pDir = "../VWOE/pix/";
 
-	if(	1 < p_argc ) {
+	if( 1 < p_argc ) {
 
 		sDir = p_argv[ 1 ];
 		pDir = p_argv[ 2 ];
 	}
 
 	QApplication
-	application(	p_argc,	p_argv );
+	application( p_argc, p_argv );
 
 	GLView
 	glView( sDir, pDir );
