@@ -40,6 +40,5 @@ main( int p_argc, char *p_argv[ ] ) {
 
 	mainWindow.show( );
 
-	return
-	application.exec( );
+	return application.exec( );
 }
