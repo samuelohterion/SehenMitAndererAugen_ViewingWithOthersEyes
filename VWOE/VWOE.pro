@@ -6,7 +6,8 @@
 
 QT       += core gui opengl 3d
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+lessThan(QT_MAJOR_VERSION, 4): QT += 3d
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets 3dcore
 
 TARGET = VWOE
 TEMPLATE = app
