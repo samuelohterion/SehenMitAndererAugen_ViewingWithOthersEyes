@@ -4,10 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui opengl 3d
-
-lessThan(QT_MAJOR_VERSION, 4): QT += 3d
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets 3dcore
+QT       += core gui opengl
 
 TARGET = VWOE
 TEMPLATE = app
